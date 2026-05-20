@@ -6,12 +6,11 @@ Tic-Tac-Toe — Simple version (interview-friendly)
 """
 
 from abc import ABC, abstractmethod
-from dataclasses import dataclass
 from enum import Enum
 
 
 # ──────────────────────────────────────────────
-#  Enums & Data Classes
+#  Enums & Classes
 # ──────────────────────────────────────────────
 
 class GameStatus(Enum):
@@ -20,20 +19,20 @@ class GameStatus(Enum):
     DRAW        = "DRAW"
 
 
-@dataclass
 class Player:
-    name: str
-    symbol: str   # 'X' or 'O'
+    def __init__(self, name: str, symbol: str):
+        self.name = name
+        self.symbol = symbol
 
     def __str__(self):
         return f"{self.name}({self.symbol})"
 
 
-@dataclass
 class Move:
-    row: int
-    col: int
-    player: Player
+    def __init__(self, row: int, col: int, player: Player):
+        self.row = row
+        self.col = col
+        self.player = player
 
 
 # ──────────────────────────────────────────────
