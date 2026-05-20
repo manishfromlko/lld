@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout *)",
+      "Bash(mkdir -p \"/Users/manish/Downloads/System-Design/Low Level Design/python-implementation/tier1\" \"/Users/manish/Downloads/System-Design/Low Level Design/python-implementation/tier2\" \"/Users/manish/Downloads/System-Design/Low Level Design/python-implementation/tier3\")",
+      "Bash(python python-implementation/tier3/spreadsheet.py)",
+      "Bash(python3 python-implementation/tier3/spreadsheet.py)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ],
+    "additionalDirectories": [
+      "/Users/manish/Downloads/System-Design/Low Level Design/python-implementation"
+    ]
+  }
+}
