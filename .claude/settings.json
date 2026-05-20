@@ -7,7 +7,8 @@
       "Bash(python3 python-implementation/tier3/spreadsheet.py)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(git mv *)"
+      "Bash(git mv *)",
+      "Bash(python3 python-implementation/tier1/001-tic-tac-toe.py)"
     ],
     "additionalDirectories": [
       "/Users/manish/Downloads/System-Design/Low Level Design/python-implementation"
